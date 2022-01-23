@@ -1,3 +1,3 @@
-# Segunda entrega - Proyecto final
-### TharoFit
+# SASS
+### main.css / main.scss Aplicado al Outlet
 Lautaro Martinucci
