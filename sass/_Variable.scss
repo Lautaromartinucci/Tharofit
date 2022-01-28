@@ -1,2 +1,13 @@
-$colorprin: black;
-$colorsec: white;
+$paletaColores: (
+    primario: black,
+    secundario: white
+); 
+
+@mixin contenedores {
+    height: 250px;
+    width: 400px;
+    border: 2px solid map-get($paletaColores , primario );
+    align-items: center;
+    text-align: center;
+
+}
