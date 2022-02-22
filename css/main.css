@@ -13,9 +13,9 @@
 }
 
 .fondoOutlet .galeriaOutlet .textoOutlet {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
 }
 
 .fondoOutlet .galeriaOutlet .textoOutlet h2 {
@@ -35,36 +35,10 @@
 
 .fondoOutlet .galeriaOutlet img:hover {
   border: 5px solid white;
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
 }
 
 .fondoOutlet .galeriaOutlet .col-lg-4 {
   margin: 0;
   padding: 20px;
-}
-
-.contenedor1, .contenedor2 {
-  height: 150px;
-  width: 500px;
-  border: 1px solid white;
-  color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 20px;
-}
-
-.contenedor3 {
-  height: 250px;
-  width: 400px;
-  border: 2px solid black;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  background-color: white;
-  color: black;
 }
 /*# sourceMappingURL=main.css.map */

@@ -15,9 +15,9 @@
 
     & .galeriaOutlet {
         & .textoOutlet{
-            font-size: 30px;
+            font-size: 25px;
             color: map-get($paletaColores , secundario );
-            border-bottom: 1px solid map-get($paletaColores , secundario );
+            border-bottom: 2px solid map-get($paletaColores , secundario );
 
             & h2{ 
                 background-color:map-get($paletaColores , secundario );
@@ -36,7 +36,6 @@
 
         & img:hover{
             border: 5px solid map-get($paletaColores, secundario );
-            filter: blur(2px)
         }
 
         & .col-lg-4 {
@@ -45,26 +44,5 @@
         }
 
     }
-}
-
-.contenedor1 {
-    height: 150px;
-    width: 500px;
-    border: 1px solid map-get($paletaColores , secundario );
-    color: map-get($paletaColores , secundario );
-    align-items: center;
-    text-align: center;
-    padding: 20px;   
-}
-
-.contenedor2 {
-    @extend .contenedor1
-}
-
-.contenedor3 {
-    @include contenedores;
-    background-color: white;
-    color: black;
-
 }
 
